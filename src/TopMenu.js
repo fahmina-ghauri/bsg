@@ -22,7 +22,7 @@ class TopMenu extends React.Component {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav left">
                         <li className="nav-item active">
-                            <Link className="color nav-link" to="/contact">Contact Us <span className="sr-only">(current)</span></Link>
+                            <Link className="color nav-link" to="/bsg/contact">Contact Us <span className="sr-only">(current)</span></Link>
                         </li>
                         <li className="nav-item">
                             <a className="color nav-link" href="#">Members</a>

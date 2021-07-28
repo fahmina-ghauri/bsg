@@ -11,7 +11,7 @@ class Ahu extends React.Component {
                 </div>
                 <div className="row mb-2">
                     <div className="col-md-5">
-                        <img className="m-3" src="../images/ahu.png" alt="jetfan"></img>
+                        <img className="m-3" src="../../images/ahu.png" alt="jetfan"></img>
                     </div>
                     <div className="col-md-7">
                         <p>

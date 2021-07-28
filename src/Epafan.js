@@ -11,7 +11,7 @@ class Epafan extends React.Component {
                 </div>
                 <div className="row mb-2">
                     <div className="col-md-5">
-                        <img className="m-3" src="../images/epa.png" alt="epafan image"></img>
+                        <img className="m-3" src="../../images/epa.png" alt="epafan image"></img>
                     </div>
                     <div className="col-md-7">
                         <p>

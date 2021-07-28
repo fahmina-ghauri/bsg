@@ -27,52 +27,52 @@ class App extends React.Component {
                     <Route exact path="/bsg">
                         <Home></Home>
                     </Route>
-                    <Route path="/contact">
+                    <Route path="/bsg/contact">
                         <Contact></Contact>
                     </Route>
-                    <Route path="/products/jetfan">
+                    <Route path="/bsg/products/jetfan">
                         <Jetfan></Jetfan>
                     </Route>
-                    <Route path="/products/axialfan">
+                    <Route path="/bsg/products/axialfan">
                         <Axialfan></Axialfan>
                     </Route>
-                    <Route path="/products/ccfan">
+                    <Route path="/bsg/products/ccfan">
                         <Ccfan></Ccfan>
                     </Route>
-                    <Route path="/products/epafan">
+                    <Route path="/bsg/products/epafan">
                         <Epafan></Epafan>
                     </Route>
-                    <Route path="/products/pfan">
+                    <Route path="/bsg/products/pfan">
                         <Pfan></Pfan>
                     </Route>
-                    <Route path="/products/fcu">
+                    <Route path="/bsg/products/fcu">
                         <Fcu></Fcu>
                     </Route>
-                    <Route path="/products/ahu">
+                    <Route path="/bsg/products/ahu">
                         <Ahu></Ahu>
                     </Route>
-                    <Route path="/industries/automotive">
+                    <Route path="/bsg/industries/automotive">
                         <ComingSoon></ComingSoon>
                     </Route>
-                    <Route path="/industries/power">
+                    <Route path="/bsg/industries/power">
                         <ComingSoon></ComingSoon>
                     </Route>
-                    <Route path="/industries/pharma">
+                    <Route path="/bsg/industries/pharma">
                         <ComingSoon></ComingSoon>
                     </Route>
-                    <Route path="/industries/air-makeup">
+                    <Route path="/bsg/industries/air-makeup">
                         <ComingSoon></ComingSoon>
                     </Route>
-                    <Route path="/resources">
+                    <Route path="/bsg/resources">
                         <ComingSoon></ComingSoon>
                     </Route>
-                    <Route path="/testing">
+                    <Route path="/bsg/testing">
                         <ComingSoon></ComingSoon>
                     </Route>
-                    <Route path="/parts">
+                    <Route path="/bsg/parts">
                         <ComingSoon></ComingSoon>
                     </Route>
-                    <Route path="/fanpedia">
+                    <Route path="/bsg/fanpedia">
                         <ComingSoon></ComingSoon>
                     </Route>
                 </Switch>
