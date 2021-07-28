@@ -8,7 +8,7 @@ class Home extends React.Component {
     render() {
         return (
             <div>
-                <img className="img-fluid" alt="timer" src="../images/banner.png" style={{ height: "50%" }} />
+                <img className="img-fluid" alt="timer" src="images/banner.png" style={{ height: "50%" }} />
                 <div className="row m-3">
                     <div className="col-md-6">
                         <i class="fa fa-angle-double-right fa-3x fa-fw"></i>
