@@ -1,0 +1,9 @@
+.top-left {
+  position: absolute;
+  top: 42%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  /*top: 5px;*/
+  /*left: 16px;*/
+}
+

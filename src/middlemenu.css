@@ -1,0 +1,10 @@
+.h2 {
+    color:#50a244;
+    text-decoration: none;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500; */
+}
+
+.h2-border {
+   border-bottom:  1.5px solid #50a244;
+}

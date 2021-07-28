@@ -1,0 +1,49 @@
+.itemcolor {
+    color: black !important;
+}
+
+.bordercolor {
+    border-right: 3px solid #008080;
+}
+
+.bordercolor:last-child {
+    border-right: none
+}
+
+.nav-item {
+    text-align: center;
+}
+
+.btn-light, .btn-light:hover, .btn-light:active, .btn-light:visited {
+    background-color: white !important;
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+p {
+    font-size: medium;
+}
+
+.margin-top {
+    margin-top: "5%";
+}
+
+.submenu1 {
+    min-width: 30rem !important;
+}
+
+.dropdown-item {
+    color: darkslategray;
+    padding-left: 0%;
+}
+
+.icon-color {
+    color: green;
+}
+
+.p-fan-heading {
+    margin: 5% 15%;
+    font-weight: normal;
+    text-shadow: 2px 2px 2px darkslategray, 0 0 1em darkslategray, 0 0 2em darkslategray;
+}
