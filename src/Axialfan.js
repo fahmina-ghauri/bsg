@@ -12,7 +12,7 @@ class Axialfan extends React.Component {
                 <div className="row mb-2">
                     <div className="col-md-5">
                         <h5 className="h5 m-3 d-flex justify-content-center">Tachnical Drawing of Tube Axial Fan</h5>
-                        <img src="../../images/axialfan.png" alt="axial fan" style={{width: "50%",display: 'block', marginLeft : 'auto', marginRight: 'auto'}}></img>
+                        <img src="../images/axialfan.png" alt="axial fan" style={{width: "50%",display: 'block', marginLeft : 'auto', marginRight: 'auto'}}></img>
                     </div>
                     <div className="col-md-7">
                         <p>

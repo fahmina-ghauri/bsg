@@ -12,7 +12,7 @@ class Pfan extends React.Component {
                 <div className="row mb-2">
                     <div className="col-md-5">
                         <h5 className="h5 d-flex justify-content-center mb-3">Technical Drawing of Propeller Fan</h5>
-                        <img src="../../images/pfan.png" alt="pfan" style={{ width: '50%', display: 'block', marginLeft: 'auto', marginRight: 'auto' }}></img>
+                        <img src="../images/pfan.png" alt="pfan" style={{ width: '50%', display: 'block', marginLeft: 'auto', marginRight: 'auto' }}></img>
                     </div>
                     <div className="col-md-7">
                         <p>

@@ -24,7 +24,7 @@ class App extends React.Component {
                 <MiddleMenu />
                 <MainMenu />
                 <Switch>
-                    <Route exact path="/bsg">
+                    <Route exact path="/bsg/">
                         <Home></Home>
                     </Route>
                     <Route path="/bsg/contact">
