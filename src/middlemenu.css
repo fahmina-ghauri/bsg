@@ -6,5 +6,6 @@
 }
 
 .h2-border {
-   border-bottom:  1.5px solid #50a244;
+   /* border-bottom:  1.7px solid #50a244; */
+   text-decoration: underline;
 }

@@ -7,8 +7,8 @@ class MiddleMenu extends React.Component {
     render() {
         return (
             <div className="row m-3 p-2">
-                <div className="col-md-4" style={{maxWidth: '30.333%'}}> 
-                   <Link to="/bsg/" style={{textDecoration: "none" }}> <h2 className="h2 h2-border"> BSG TECHNOLOGIES</h2> </Link>
+                <div className="col-md-4"> 
+                   <Link to="/bsg/" style={{textDecoration: "none" }}> <h2 className="h2 h2-border"> BSG INDUSTRIES</h2> </Link>
                 </div>
                 <div className="col-md-2"></div>
 

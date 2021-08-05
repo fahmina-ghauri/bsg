@@ -9,7 +9,7 @@ class ContactUs extends React.Component {
                 <div src="images/background-1.jpg" style={{ backgroundColor: "#14697d", width: "100%", height: "200px" }} ></div>
                 <h1 className="contact-us" style={{ color: "white", fontSize: "60px" }}>Contact Us</h1>
                 <div className="row m-0">
-                    <div className="col-md-5"><img src="../images/contact-2.jpeg" style={{margin: "5% 0 5% 0", width: "80%" }} /></div>
+                    <div className="col-md-5"><img src="images/contact-2.jpeg" style={{margin: "5% 0 5% 0", width: "80%" }} /></div>
                     <div className="col-md-6" style={{margin: "5% 0 5% 0"}}>
                         <h4>Contact Us</h4>
                         <p>
