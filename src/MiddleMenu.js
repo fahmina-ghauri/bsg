@@ -1,6 +1,8 @@
 import React from 'react';
 import "./middlemenu.css";
 import { Link } from "react-router-dom";
+import Search from './Components/Search';
+import SearchData from './enums/SearchData.json';
 
 class MiddleMenu extends React.Component {
 
@@ -13,14 +15,7 @@ class MiddleMenu extends React.Component {
                 <div className="col-md-2"></div>
 
                 <div className="col-md-3">
-                    <div className="input-group">
-                        <input type="text" className="form-control form-control-sm" placeholder="Search" />
-                        <div className="input-group-append">
-                            <button className="btn btn-secondary py-0" type="button">
-                                <i className="fa fa-search"></i>
-                            </button>
-                        </div>
-                    </div>
+                    <Search data={SearchData}></Search>
                 </div>
                 <div className="col-md-3">
                     <form className="form-inline my-2 my-lg-0 dropdown">

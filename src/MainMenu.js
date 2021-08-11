@@ -10,84 +10,84 @@ class MainMenu extends React.Component {
                 <div className="row collapse navbar-collapse h-100" id="navbarSupportedContent">
                     <div className="col navbar-nav h-55">
                         <div className="col nav-item active bordercolor">
-                            <div class="dropdown">
-                                <button class="btn btn-light dropdown-toggle itemcolor py-0" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <div className="dropdown">
+                                <button className="btn btn-light dropdown-toggle itemcolor py-0" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Product</button>
-                                <div class="dropdown-menu submenu1" aria-labelledby="dropdownMenu1" >
+                                <div className="dropdown-menu submenu1" aria-labelledby="dropdownMenu1" >
                                     <ul style={{float:'left'}}>
-                                        <Link class="dropdown-item" type="button" to="/bsg/products/jetfan"><i className="fa fa-angle-right fa-fw icon-color"></i>Jet Fan</Link>
-                                        <Link class="dropdown-item" type="button" to="/bsg/products/axialfan"><i className="fa fa-angle-right fa-fw icon-color"></i>Axial Fan</Link>
-                                        <Link class="dropdown-item" type="button" to="/bsg/products/ccfan" ><i className="fa fa-angle-right fa-fw icon-color"></i>Centrifugal Cabinet Fan</Link>
-                                        <Link class="dropdown-item" type="button" to="/bsg/products/epafan"><i className="fa fa-angle-right fa-fw icon-color"></i>Explosion Proof Axial Fan</Link>
+                                        <Link className="dropdown-item" type="button" to="/bsg/products/jetfan"><i className="fa fa-angle-right fa-fw icon-color"></i>Jet Fan</Link>
+                                        <Link className="dropdown-item" type="button" to="/bsg/products/axialfan"><i className="fa fa-angle-right fa-fw icon-color"></i>Axial Fan</Link>
+                                        <Link className="dropdown-item" type="button" to="/bsg/products/ccfan" ><i className="fa fa-angle-right fa-fw icon-color"></i>Centrifugal Cabinet Fan</Link>
+                                        <Link className="dropdown-item" type="button" to="/bsg/products/epafan"><i className="fa fa-angle-right fa-fw icon-color"></i>Explosion Proof Axial Fan</Link>
                                     </ul>
                                     <ul style={{position: 'absolute', marginLeft: '230px'}}>
-                                        <Link class="dropdown-item" type="button" to="/bsg/products/pfan"><i className="fa fa-angle-right fa-fw icon-color"></i>Propeller Fan</Link>
-                                        <Link class="dropdown-item" type="button" to="/bsg/products/fcu"><i className="fa fa-angle-right fa-fw icon-color"></i>Fan Coil Units</Link>
-                                        <Link class="dropdown-item" type="button" to="/bsg/products/ahu"><i className="fa fa-angle-right fa-fw icon-color"></i>Air Handling Units</Link>
+                                        <Link className="dropdown-item" type="button" to="/bsg/products/pfan"><i className="fa fa-angle-right fa-fw icon-color"></i>Propeller Fan</Link>
+                                        <Link className="dropdown-item" type="button" to="/bsg/products/fcu"><i className="fa fa-angle-right fa-fw icon-color"></i>Fan Coil Units</Link>
+                                        <Link className="dropdown-item" type="button" to="/bsg/products/ahu"><i className="fa fa-angle-right fa-fw icon-color"></i>Air Handling Units</Link>
                                     </ul></div>
                             </div>
                         </div>
                         <div className="col-md-3 bordercolor nav-item bordercolor">
-                            <div class="dropdown">
-                                <button class="btn btn-light dropdown-toggle itemcolor py-0" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <div className="dropdown">
+                                <button className="btn btn-light dropdown-toggle itemcolor py-0" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Industries & Applications</button>
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                <div className="dropdown-menu" aria-labelledby="dropdownMenu2">
                                 <ul style={{float:'left'}}>
                                         
-                                        <Link class="dropdown-item" type="button" to="/bsg/industries/automotive"><i className="fa fa-angle-right fa-fw icon-color"></i>Automotive</Link>
-                                        <Link class="dropdown-item" type="button" to="/bsg/industries/power"><i className="fa fa-angle-right fa-fw icon-color"></i>Power Generation</Link>
-                                        <Link class="dropdown-item" type="button" to="/bsg/industries/pharma"><i className="fa fa-angle-right fa-fw icon-color"></i>Pharmaceutical</Link>
-                                        <Link class="dropdown-item" type="button" to="/bsg/industries/air-makeup"><i className="fa fa-angle-right fa-fw icon-color"></i>Air Make-up</Link>
+                                        <Link className="dropdown-item" type="button" to="/bsg/industries/automotive"><i className="fa fa-angle-right fa-fw icon-color"></i>Automotive</Link>
+                                        <Link className="dropdown-item" type="button" to="/bsg/industries/power"><i className="fa fa-angle-right fa-fw icon-color"></i>Power Generation</Link>
+                                        <Link className="dropdown-item" type="button" to="/bsg/industries/pharma"><i className="fa fa-angle-right fa-fw icon-color"></i>Pharmaceutical</Link>
+                                        <Link className="dropdown-item" type="button" to="/bsg/industries/air-makeup"><i className="fa fa-angle-right fa-fw icon-color"></i>Air Make-up</Link>
                                     </ul>
                                     
                                 </div>
                             </div>
                         </div>
                         <div className="col bordercolor nav-item bordercolor">
-                            <div class="dropdown">
-                                <Link to="/bsg/resources" class="btn btn-light dropdown-toggle itemcolor py-0" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <div className="dropdown">
+                                <Link to="/bsg/resources" className="btn btn-light dropdown-toggle itemcolor py-0" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Resources</Link>
-                                {/* <div class="dropdown-menu" aria-labelledby="dropdownMenu3">
+                                {/* <div className="dropdown-menu" aria-labelledby="dropdownMenu3">
                                 <ul style={{float:'left'}}>
-                                        {/* <button class="dropdown-item" type="button"><i className="fa fa-angle-right fa-fw icon-color"></i>abc</button>
-                                        <button class="dropdown-item" type="button"><i className="fa fa-angle-right fa-fw icon-color"></i>xyz</button>
-                                        <button class="dropdown-item" type="button"><i className="fa fa-angle-right fa-fw icon-color"></i>etc</button> */}
+                                        {/* <button className="dropdown-item" type="button"><i className="fa fa-angle-right fa-fw icon-color"></i>abc</button>
+                                        <button className="dropdown-item" type="button"><i className="fa fa-angle-right fa-fw icon-color"></i>xyz</button>
+                                        <button className="dropdown-item" type="button"><i className="fa fa-angle-right fa-fw icon-color"></i>etc</button> */}
                                     {/* </ul> */}
                                 {/* </div> */} 
                             </div>
                         </div>
                         <div className="col-md-3 bordercolor nav-item bordercolor">
-                            <div class="dropdown">
-                                <Link to="/bsg/testing" class="btn btn-light dropdown-toggle itemcolor py-0" type="button" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <div className="dropdown">
+                                <Link to="/bsg/testing" className="btn btn-light dropdown-toggle itemcolor py-0" type="button" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Fan Testing & Services</Link>
-                                {/* <div class="dropdown-menu" aria-labelledby="dropdownMenu4">
+                                {/* <div className="dropdown-menu" aria-labelledby="dropdownMenu4">
                                 <ul style={{float:'left'}}>
-                                        <button class="dropdown-item" type="button"><i className="fa fa-angle-right fa-fw icon-color"></i>abc</button>
-                                        <button class="dropdown-item" type="button"><i className="fa fa-angle-right fa-fw icon-color"></i>xyz</button>
-                                        <button class="dropdown-item" type="button"><i className="fa fa-angle-right fa-fw icon-color"></i>xyz</button>
+                                        <button className="dropdown-item" type="button"><i className="fa fa-angle-right fa-fw icon-color"></i>abc</button>
+                                        <button className="dropdown-item" type="button"><i className="fa fa-angle-right fa-fw icon-color"></i>xyz</button>
+                                        <button className="dropdown-item" type="button"><i className="fa fa-angle-right fa-fw icon-color"></i>xyz</button>
                                     </ul>
                                 </div> */}
                             </div>
                         </div>
                         <div className="col-md-2 bordercolor nav-item bordercolor">
-                            <div class="dropdown">
-                                <Link  to="/bsg/parts" class="btn btn-light dropdown-toggle itemcolor py-0" type="button" id="dropdownMenu5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <div className="dropdown">
+                                <Link  to="/bsg/parts" className="btn btn-light dropdown-toggle itemcolor py-0" type="button" id="dropdownMenu5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Parts & Services</Link>
-                                {/* <div class="dropdown-menu" aria-labelledby="dropdownMenu5">
-                                    <button class="dropdown-item" type="button">Action</button>
-                                    <button class="dropdown-item" type="button">Another action</button>
-                                    <button class="dropdown-item" type="button">Something else here</button>
+                                {/* <div className="dropdown-menu" aria-labelledby="dropdownMenu5">
+                                    <button className="dropdown-item" type="button">Action</button>
+                                    <button className="dropdown-item" type="button">Another action</button>
+                                    <button className="dropdown-item" type="button">Something else here</button>
                                 </div> */}
                             </div>
                         </div>
                         <div className="col bordercolor nav-item bordercolor">
-                            <div class="dropdown">
-                                <Link to="/bsg/fanpedia" class="btn btn-light dropdown-toggle itemcolor py-0" type="button" id="dropdownMenu6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <div className="dropdown">
+                                <Link to="/bsg/fanpedia" className="btn btn-light dropdown-toggle itemcolor py-0" type="button" id="dropdownMenu6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Fanpedia</Link>
-                                {/* <div class="dropdown-menu" aria-labelledby="dropdownMenu6">
-                                    <button class="dropdown-item" type="button">Action</button>
-                                    <button class="dropdown-item" type="button">Another action</button>
-                                    <button class="dropdown-item" type="button">Something else here</button>
+                                {/* <div className="dropdown-menu" aria-labelledby="dropdownMenu6">
+                                    <button className="dropdown-item" type="button">Action</button>
+                                    <button className="dropdown-item" type="button">Another action</button>
+                                    <button className="dropdown-item" type="button">Something else here</button>
                                 </div> */}
                             </div>
                         </div>

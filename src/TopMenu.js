@@ -35,10 +35,10 @@ class TopMenu extends React.Component {
                         </li>
                         <li className="nav-item">
 
-                            <a href="#" class="fa fa-facebook fa-fw fa-social"></a>
-                            <a href="#" class="fa fa-twitter fa-fw fa-social"></a>
-                            <a href="#" class="fa fa-linkedin fa-fw fa-social"></a>
-                            <a href="#" class="fa fa-youtube fa-fw fa-social"></a>
+                            <a href="#" className="fa fa-facebook fa-fw fa-social"></a>
+                            <a href="#" className="fa fa-twitter fa-fw fa-social"></a>
+                            <a href="#" className="fa fa-linkedin fa-fw fa-social"></a>
+                            <a href="#" className="fa fa-youtube fa-fw fa-social"></a>
 
                         </li>
                         {/* <li class="nav-item dropdown">

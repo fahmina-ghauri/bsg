@@ -11,7 +11,7 @@ class Home extends React.Component {
                 <img className="img-fluid" alt="timer" src="images/banner.png" style={{ height: "50%" }} />
                 <div className="row m-3">
                     <div className="col-md-6">
-                        <i class="fa fa-angle-double-right fa-3x fa-fw"></i>
+                        <i className="fa fa-angle-double-right fa-3x fa-fw"></i>
                         <h2 className="h2" style={{ display: "inline-block" }}>
                             WHO WE ARE </h2>
                         <div style={{ marginLeft: "11%" }}>
@@ -64,7 +64,7 @@ FEEDBACK TO WIN CUSTOMER CONFIDENCE. <a href="#">Read More</a></p>
                     </div>
 
                     <div className="col-md-6">
-                        <i class="fa fa-angle-double-right fa-3x fa-fw"></i>
+                        <i className="fa fa-angle-double-right fa-3x fa-fw"></i>
                         <h2 className="h2" style={{ display: "inline-block" }}>
                             MAINTENANCE SERVICES </h2>
                         <div>

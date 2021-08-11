@@ -14,6 +14,8 @@ import Pfan from "./Pfan";
 import Fcu from "./Fcu";
 import Ahu from "./Ahu";
 import ComingSoon from "./ComingSoon";
+import Search from "./Components/Search";
+import SearchResult from "./Components/SearchResult";
 
 class App extends React.Component {
 
@@ -74,6 +76,8 @@ class App extends React.Component {
                     </Route>
                     <Route path="/bsg/fanpedia">
                         <ComingSoon></ComingSoon>
+                    </Route>
+                    <Route path="/bsg/search" render={(props) => <SearchResult {...props}/>}>
                     </Route>
                 </Switch>
                 <Footer></Footer>

@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "keyword":"Jet",
+        "topic":"Jet Fan",
+        "url":"/bsg/products/jetfan",
+        "description" : "Jet fans are specialized fans used for tunnel and car parking ventilation systems. They can be reversible or unidirectional."
+    },
+    {
+        "id": 2,
+        "keyword":"axial fan",
+        "topic":"Axial Fan",
+        "url":"/bsg/products/axialfan",
+        "description" : "An axial fan is a type of fan that causes air to flow through it in an axial direction, parallel to the shaft about which the blades rotate."
+    },
+    {
+        "id": 3,
+        "keyword":"contact",
+        "topic":"Contact Us",
+        "url":"/bsg/contact",
+        "description" : "Contact us address..."
+    },
+    {
+        "id": 4,
+        "keyword":"centrifugal cabinet fan",
+        "topic":"Centrifugal Cabinet Fan",
+        "url":"/bsg/products/ccfan", 
+        "description" : "Centrifugal fans are designed for a wide range of air volumes and pressures..."
+    },
+    {
+        "id": 5,
+        "keyword":"jet fan",
+        "topic":"Jet Fan",
+        "url":"/bsg/products/jetfan",
+        "description" : "abc..."
+    }
+
+]
