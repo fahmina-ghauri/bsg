@@ -4,14 +4,16 @@
         "keyword":"Jet",
         "topic":"Jet Fan",
         "url":"/bsg/products/jetfan",
-        "description" : "Jet fans are specialized fans used for tunnel and car parking ventilation systems. They can be reversible or unidirectional."
+        "description" : "Jet fans are specialized fans used for tunnel and car parking ventilation systems. They can be reversible or unidirectional.",
+        "model": "JF"
     },
     {
         "id": 2,
         "keyword":"axial fan",
         "topic":"Axial Fan",
         "url":"/bsg/products/axialfan",
-        "description" : "An axial fan is a type of fan that causes air to flow through it in an axial direction, parallel to the shaft about which the blades rotate."
+        "description" : "An axial fan is a type of fan that causes air to flow through it in an axial direction, parallel to the shaft about which the blades rotate.",
+        "model": "AF"
     },
     {
         "id": 3,
@@ -25,14 +27,40 @@
         "keyword":"centrifugal cabinet fan",
         "topic":"Centrifugal Cabinet Fan",
         "url":"/bsg/products/ccfan", 
-        "description" : "Centrifugal fans are designed for a wide range of air volumes and pressures..."
+        "description" : "Centrifugal fans are designed for a wide range of air volumes and pressures...",
+        "model": "CCF"
     },
     {
         "id": 5,
-        "keyword":"jet fan",
-        "topic":"Jet Fan",
-        "url":"/bsg/products/jetfan",
-        "description" : "abc..."
+        "keyword":"explosion proof axial fan",
+        "topic":"Explosion Proof Axial Fan",
+        "url":"/bsg/products/epafan",
+        "description" : "no description...",
+        "model": "EPAF"
+    },
+    {
+        "id": 6,
+        "keyword":"propeller fan",
+        "topic":"Propeller Fan",
+        "url":"/bsg/products/pfan",
+        "description" : "The propeller fan is also known as The Panel Fan and it is the most commonly used fan amoung of all. It can be found in industrial, commercial,...",
+        "model": "PF"
+    },
+    {
+        "id": 7,
+        "keyword":"fan coil unit",
+        "topic":"Fan Coil Unit",
+        "url":"/bsg/products/fcu",
+        "description" : "A fan coil unit (fcu), also known as a Vertical Fan Coil-unit (vfc), is a simple device consisting of a heating and/or cooling heat exchanger or 'coil...",
+        "model": "FCU"
+    },
+    {
+        "id": 8,
+        "keyword":"air handling unit",
+        "topic":"Air Handling Unit",
+        "url":"/bsg/products/ahu",
+        "description" : "An air handler, or air handling unit (often abbreviated to AHU), is a device used to regulate and circulate air as part of a heating, ventilating...",
+        "model": "AHU"
     }
 
 ]

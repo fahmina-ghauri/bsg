@@ -9,3 +9,15 @@
    /* border-bottom:  1.7px solid #50a244; */
    text-decoration: underline;
 }
+
+.mySelect__value-container{
+    min-width: 200px;
+}
+
+.mySelect__indicator {
+    background-color:#6c757d ;
+}
+
+.css-tlfecz-indicatorContainer{
+    color: white !important;
+}

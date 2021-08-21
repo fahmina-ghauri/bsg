@@ -31,13 +31,13 @@ class Search extends Component {
     render() {
         return (
             <div className="input-group">
-                <input className="form-control form-control-sm" type="text" placeholder="Search" aria-label="Search" onChange={this.changeSearchText} value={this.state.searchValue} />
+                <input className="form-control form-control-md" type="text" placeholder="Search" aria-label="Search" onChange={this.changeSearchText} value={this.state.searchValue} />
                 <div className="input-group-append">
                     <Link to={{
                         pathname: "/bsg/search",
                         state: {"key":this.state.searchValue }
-                    }} type="Submit" onClick={this.handleSubmit} className="btn btn-secondary py-0" id="basic-text1">
-                        <i className="fa fa-search"></i>
+                    }} type="Submit" onClick={this.handleSubmit} className="btn btn-secondary" id="basic-text1">
+                        <i className="fa fa-search fa-sm"></i>
                     </Link>
                 </div>
             </div>

@@ -8,7 +8,9 @@ class SearchResult extends Component {
         super(props);
         this.searchArr = SearchData
         this.state = {
-            result: []
+            result: [],
+            msg: ''
+
         };
     }
 
@@ -18,12 +20,12 @@ class SearchResult extends Component {
 
         let sValue = this.props.location.state;
         if (sValue == undefined) {
+            this.setState({msg: 'No Result Found!'})
             console.log("search value: " + sValue);
-            
+
         } else {
             sValue = this.props.location.state.key;
             var response = JSON.parse(JSON.stringify(this.searchArr));
-            var arr = []
             let { result } = this.state;
 
             response.forEach(element => {
@@ -38,9 +40,11 @@ class SearchResult extends Component {
 
     render() {
         const data = this.state.result;
-
+        const msg = this.state.msg;
+        
         return (
             <div>
+                <h4>{msg}</h4>
                 <h4>{data.map(d => (
                     <ul style={{ listStyleType: 'none', margin: "3%" }}>
                         <Link to={d.url}><li>{d.topic}</li></Link>
